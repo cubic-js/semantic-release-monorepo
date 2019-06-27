@@ -1,8 +1,9 @@
 {
-  "name": "semantic-release-monorepo",
+  "name": "@decisiv/semantic-release-monorepo",
   "version": "0.0.0-development",
   "description": "Plugins for `semantic-release` allowing it to be used with a monorepo.",
   "main": "src/index.js",
+  "repository": "https://github.com/Decisiv/semantic-release-monorepo.git",
   "files": [
     "src"
   ],
@@ -13,17 +14,23 @@
     "test": "jest"
   },
   "license": "MIT",
+  "release": {
+    "branch": "master"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "semantic-release": "13.4.1 - 15.x.x"
   },
   "dependencies": {
+    "@decisiv/semantic-release-plugin-decorators": "^2.0.1",
     "debug": "^3.1.0",
     "execa": "^0.8.0",
     "p-limit": "^1.2.0",
     "pkg-up": "^2.0.0",
     "ramda": "^0.25.0",
-    "read-pkg": "^3.0.0",
-    "semantic-release-plugin-decorators": "^1.2.1"
+    "read-pkg": "^3.0.0"
   },
   "devDependencies": {
     "husky": "^0.14.3",
