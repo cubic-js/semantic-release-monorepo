@@ -1,6 +1,6 @@
 {
-  "name": "@decisiv/semantic-release-monorepo",
-  "version": "0.0.0-development",
+  "name": "@kaptard/semantic-release-monorepo",
+  "version": "1.0.0",
   "description": "Plugins for `semantic-release` allowing it to be used with a monorepo.",
   "main": "src/index.js",
   "repository": "https://github.com/Decisiv/semantic-release-monorepo.git",
@@ -24,7 +24,7 @@
     "semantic-release": "13.4.1 - 15.x.x"
   },
   "dependencies": {
-    "@decisiv/semantic-release-plugin-decorators": "^2.0.1",
+    "@kaptard/semantic-release-plugin-decorators": "^1.0.1",
     "debug": "^3.1.0",
     "execa": "^0.8.0",
     "p-limit": "^1.2.0",
