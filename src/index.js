@@ -7,7 +7,7 @@ const logPluginVersion = require('./log-plugin-version');
 const {
   wrapPlugin,
   wrapMultiPlugin,
-} = require('semantic-release-plugin-decorators');
+} = require('@kaptard/semantic-release-plugin-decorators');
 
 const {
   mapNextReleaseVersion,
